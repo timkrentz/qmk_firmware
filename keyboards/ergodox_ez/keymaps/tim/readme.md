@@ -1,5 +1,10 @@
 # ErgoDox EZ Default Configuration
 
+## Personal instructions
+* Build with `qmk_firmware$ make ergodox_ez:tim`
+* Flash using teensy_loader_cli with `qmk_firmware$ teensy_loader_cli --mcu=TEENSY2 -w -v ergodox_ez_tim.hex`
+* Hit the ol' reboot button, it'll flash then reboot the board
+
 ## Changelog
 
 * Dec 2016:
